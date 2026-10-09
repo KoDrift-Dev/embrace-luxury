@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Boutique — Embrace Luxury</title>
+  <meta name="description" content="Shop Embrace Luxury — bracelets, earrings, rings and necklaces in emerald, diamond and gold."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230A2E23'/%3E%3Ctext x='16' y='22' font-family='Georgia' font-size='18' fill='%23C9A45C' text-anchor='middle' font-style='italic'%3EE%3C/text%3E%3C/svg%3E"/>
+</head>
+<body>
+  <div class="preloader">
+    <div class="pl-logo">Embrace Luxury</div>
+    <div class="pl-sub">The Boutique</div>
+    <div class="pl-bar"><i></i></div>
+    <div class="pl-count">000</div>
+  </div>
+
+  <div data-barba="wrapper">
+    <main data-barba="container" data-barba-namespace="shop">
+
+      <header class="nav">
+        <div class="wrap nav-inner">
+          <a href="index.html" class="brand" aria-label="Embrace Luxury home">
+            <span class="b-script">Embrace</span><span class="b-sub">Luxury</span>
+          </a>
+          <nav><ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active" data-barba-prevent="self">Product</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul></nav>
+          <div class="nav-actions">
+            <button class="cart-btn" data-open-cart aria-label="Open shopping bag">Bag <span class="cart-count" data-cart-count>0</span></button>
+            <button class="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+          </div>
+        </div>
+      </header>
+      <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="shop.html" class="active">Product</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <section class="page-hero grain">
+        <div class="wrap">
+          <div class="crumbs"><a href="index.html">Home</a><span>·</span><span>The Boutique</span></div>
+          <h1 class="h-display split-target">The Boutique</h1>
+          <p>Twelve signature pieces in emerald, diamond and 18k gold — each handmade in our Lahore atelier and delivered insured, anywhere in Pakistan.</p>
+        </div>
+        <div class="chain on-dark" style="position:absolute;bottom:0;left:0;right:0"></div>
+      </section>
+
+      <section class="section shop-sec">
+        <div class="wrap">
+          <div id="filters" class="filters" data-reveal></div>
+          <p id="shop-count" class="shop-count"></p>
+          <div id="shop-grid" class="shop-grid"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="chain on-dark"></div>
+        <div class="wrap">
+          <div class="foot-grid">
+            <div class="foot-brand">
+              <a href="index.html" class="brand"><span class="b-script">Embrace</span><span class="b-sub">Luxury</span></a>
+              <p>High jewellery handcrafted in Lahore since 2008. Emeralds, diamonds and gold — made to be kept forever.</p>
+            </div>
+            <div class="foot-col">
+              <h5>Boutique</h5>
+              <ul>
+                <li><a href="shop.html?cat=Bracelets">Bracelets</a></li>
+                <li><a href="shop.html?cat=Earrings">Earrings</a></li>
+                <li><a href="shop.html?cat=Rings">Rings</a></li>
+                <li><a href="shop.html?cat=Necklaces">Necklaces</a></li>
+              </ul>
+            </div>
+            <div class="foot-col">
+              <h5>Maison</h5>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html" data-barba-prevent="self">The Boutique</a></li>
+              </ul>
+            </div>
+            <div class="foot-col">
+              <h5>Newsletter</h5>
+              <p style="color:rgba(245,241,230,.55);font-weight:300;font-size:.92rem">Private previews, atelier stories, first access to new edits.</p>
+              <form class="news-form"><input type="email" placeholder="Your email address" aria-label="Email"/><button type="submit">Join</button></form>
+              <div class="news-ok"><span style="color:var(--gold)">✓</span> Welcome to the maison — check your inbox.</div>
+            </div>
+          </div>
+          <div class="foot-bottom">
+            <span>© 2026 Embrace Luxury. All rights reserved.</span>
+            <span>Lahore · Karachi · Islamabad</span>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
